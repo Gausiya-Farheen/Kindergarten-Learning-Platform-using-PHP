@@ -1,0 +1,70 @@
+html{
+  background-color:moccasin;
+  background-image: url("image/login2.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  font-size: 17px;
+  margin:0;
+}
+form{
+ background-color:lavenderblush;
+ padding:18px;
+ width:600px;
+ margin:130px 360px;
+ display:flex;
+ flex-direction:column; 
+ border-radius: 40px;
+ border:3px solid lightcoral;
+ /* height:400px; */
+}
+input{
+ background-color:lavenderblush;
+ border:1px solid black;
+ height:33px;
+ width:250px;
+ border-radius: 4px;
+
+}
+ 
+h1{
+ text-align:center;
+ font-family: Arial, Helvetica, sans-serif;
+ color:darkslateblue;
+ text-decoration:overline underline;
+ text-shadow:4px 4px 4px lightseagreen;
+}
+#button{
+ border-radius: 60px;
+ width:150px;
+ background-color:darkcyan;
+ /* background-image: url("image/cloud.jfif"); */
+ background-size: 250% 300%;
+ /* background-repeat: no-repeat; */
+ font-size: 20px;
+ margin-left: 15px;
+}
+/* input[type=file]{
+ border:0px;
+} */
+td,tr{
+ padding: 10px;
+
+}
+table{
+ padding: 18px;
+} 
+#button:hover{
+ opacity:0.7;
+ background-color:lightsalmon;
+ color:darkmagenta;
+}
+/* img{
+  height: 200px;
+  width:150px;
+  position: absolute;
+  top:200px;
+  left:100px;
+  /* background-color: aquamarine; */
+  /* z-index: 0; */
+/* } */ 
+
